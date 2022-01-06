@@ -1,0 +1,48 @@
+body {
+  background-color: #d8d3bd;
+}
+
+.rounded-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.25rem;
+  height: 6.25rem;
+  border-radius: 50%;
+  margin: 0.4rem;
+  background-color: #414039;
+}
+
+.card {
+  width: 18rem;
+  background-color: transparent;
+  border: none;
+}
+
+.card-img-top {
+  width: 9rem;
+  margin: 0 auto;
+}
+
+#reviews {
+  border-bottom: 1px solid rgb(58, 58, 58);
+}
+
+@media (min-width: 576px) {
+  #navbar:first-child > a {
+    width: 30% !important;
+    height: 30% !important;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar:first-child > a {
+    width: 7.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbar:first-child > a {
+    width: 7.25rem;
+  }
+}
