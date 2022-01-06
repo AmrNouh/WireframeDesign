@@ -17,7 +17,6 @@ body {
   width: 6.25rem;
   height: 6.25rem;
   border-radius: 50%;
-  margin: 0.4rem;
   background-color: #414039;
 }
 
@@ -36,21 +35,42 @@ body {
   border-bottom: 1px solid rgb(58, 58, 58);
 }
 
+@media (min-width: 200px) {
+  #bg-link {
+    background-color: #5d5d5e;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
 @media (min-width: 576px) {
-  #navbar:first-child > a {
-    width: 30% !important;
-    height: 30% !important;
+  #bg-link {
+    background-color: #5d5d5e;
+    width: 18rem;
+    height: 18rem;
   }
 }
 
 @media (min-width: 768px) {
-  #navbar:first-child > a {
-    width: 7.25rem;
+  #bg-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    background-color: #414039;
   }
 }
 
 @media (min-width: 992px) {
-  #navbar:first-child > a {
-    width: 7.25rem;
+  #bg-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    background-color: #414039;
   }
 }
