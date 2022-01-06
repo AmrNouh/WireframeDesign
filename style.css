@@ -2,6 +2,14 @@ body {
   background-color: #d8d3bd;
 }
 
+.shape {
+  margin: 0 auto;
+  width: 6.25rem;
+  height: 10em;
+  background: radial-gradient(circle at 50% 100%, transparent 30%, #414039 30%);
+  position: relative;
+}
+
 .rounded-item {
   display: flex;
   justify-content: center;
